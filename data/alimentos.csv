@@ -1,0 +1,35 @@
+Tipo,Alimento,Gramos,Kcal,Proteína,Hidratos,Grasas,Mezcla
+Grasas,Aceite,100,884,0,0,100,No
+Grasas,Chocolate negro,100,546,7.8,46,31,No
+Grasas,Frutos secos,100,607,20,21,54,No
+Grasas,Guacamole,100,160,2,9,15,No
+Hidratos,Arroz,100,130,2.7,28,0.3,No
+Hidratos,Copos avena,100,389,17,66,7,No
+Hidratos,Cornflakes,100,357,8,84,0.4,No
+Hidratos,Garbanzos,100,164,9,27,2.6,No
+Hidratos,Harina de avena,100,389,13,66,7,No
+Hidratos,Lentejas,100,116,9,20,0.4,No
+Hidratos,Pan,100,265,9,49,3.2,No
+Hidratos,Pasta,100,131,5,25,1.1,No
+Hidratos,Patata,100,77,2,17,0.1,No
+Hidratos,Tortilla trigo,100,300,8,49,7,No
+Hidratos,Tortita de arroz,100,387,7,82,3,No
+Hidratos,Tortita de maíz,100,387,8,83,3,No
+Proteínas,Atún al natural en lata,100,116,26,0,1,No
+Proteínas,Atún en aceite en lata,100,198,25,0,11,No
+Proteínas,Carne de cerdo,100,242,27,0,14,No
+Proteínas,Carne picada de pollo-pavo,100,200,22,0,13,No
+Proteínas,Claras,100,52,11,0.7,0.2,Si
+Proteínas,Hamburguesa de pollo-pavo,100,150,20,5,5,No
+Proteínas,Huevos,100,155,13,1.1,11,Si
+Proteínas,Jamón serrano,100,241,31,0,13,No
+Proteínas,Lomo embuchado,100,334,50,0,14,No
+Proteínas,Merluza,100,85,18,0,1,No
+Proteínas,Pechuga de pavo,100,135,30,0,1,No
+Proteínas,Pechuga de pollo,100,165,31,0,3.6,No
+Proteínas,Pechuga pavo en lonchas,100,110,20,2,1.5,Si
+Proteínas,Proteína isolada,100,375,85,3,1.5,Si
+Proteínas,Queso fresco batido,100,200,20,20,20,Si
+Proteínas,Sardinas,100,208,25,0,12,No
+Proteínas,Sepia,100,79,16,1.5,1,No
+Proteínas,Ternera,100,250,26,0,15,No

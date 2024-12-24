@@ -5,7 +5,7 @@ import os
 from funciones import distribuir_macronutrientes, generar_combinaciones
 from streamlit_option_menu import option_menu
 
-@st.cache
+@st.cache_data
 def cargar_datos_alimentos():
     file_path = os.path.join('data', 'alimentos.csv')
     if os.path.exists(file_path):
@@ -14,7 +14,7 @@ def cargar_datos_alimentos():
         st.error("El archivo 'alimentos.csv' no se encuentra en la carpeta 'data'.")
         return pd.DataFrame()
 
-@st.cache
+@st.cache_data
 def cargar_datos_usuario():
     file_path = os.path.join('data', 'usuario.csv')
     if os.path.exists(file_path):
@@ -77,7 +77,7 @@ def app():
         nivel_actividad = ""
         objetivo = ""
 
-    metodo_necesidades = st.radio("¿Cómo quieres definir tus necesidades de macronutrientes?", 
+    metodo_necesidades = st.radio("HOLA", 
                                   ("Definir por mí mismo", "Calcular automáticamente"))
 
     if metodo_necesidades == "Definir por mí mismo":

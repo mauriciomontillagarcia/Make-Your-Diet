@@ -15,7 +15,7 @@ class MultiApp:
     def add_app(self, title, function):
         self.apps.append({"title": title, "function": function})
 
-    @st.cache_resource
+    @st.cache_data
     def get_logo_background_color(_self, logo_path):  # Cambia 'self' por '_self'
         if os.path.exists(logo_path):
             try:

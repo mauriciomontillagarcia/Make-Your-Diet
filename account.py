@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 
-@st.cache
+@st.cache_data
 def cargar_datos_peso():
     file_path = os.path.join('data', 'peso.csv')
     if os.path.exists(file_path):

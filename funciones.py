@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st 
 import pandas as pd
 import numpy as np
 
@@ -65,7 +65,7 @@ def seleccionar_alimentos(alimentos_comida, remaining_cal, remaining_protein, re
 
         # Verificar restricciones de cantidad mínima y máxima
         if (alimento_tipo == "Grasas" and (grasas_usadas < 5 or grasas_usadas > 25)) or \
-           (alimento_tipo == "Proteínas" and proteinas_usadas < 50) or \
+           (alimento_tipo == "Proteínas" and proteinas_usadas < 75) or \
            (alimento_tipo == "Hidratos" and hidratos_usados < 30):
             continue
 
@@ -89,7 +89,7 @@ def seleccionar_alimentos(alimentos_comida, remaining_cal, remaining_protein, re
         alimentos_comida = alimentos_comida[alimentos_comida["Alimento"] != alimento_nombre]
 
     # Verificar que se cumplan las cantidades mínimas para cada tipo de macronutriente en la combinación final
-    if total_proteinas < 50 or total_hidratos < 30 or total_grasas < 5:
+    if total_proteinas < 75 or total_hidratos < 30 or total_grasas < 5 or total_grasas > 25:
         return []
 
     return alimentos_seleccionados
